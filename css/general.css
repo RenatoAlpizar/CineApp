@@ -1,0 +1,70 @@
+/* reglas de formato comun de todas las páginas */
+
+/*fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* variables colores y fuentes */
+:root{
+    --AzulPrimario:#024059;
+    --AmarilloSecundario:#F2B66D;
+    --NaranjaEnfasis:#F27052;
+    --RojoEnfasis:#D95E52;
+    --Blanco:#D9D9D9;
+    --Fuente:"Raleway";
+}
+
+/*estilos generales del cuerpo*/
+*{
+    /*tipo fuente*/
+    font-family: var(--Fuente), sans-serif !important;
+    /*tamaño de fuente*/
+    font-size: 14px !important;
+}
+
+h1,h2,h3{
+    font-size: 2em !important; /* 14 * 2 = 22px*/
+    /*color fuente*/
+    color: var(--AmarilloSecundario);
+}
+/*estilos generales del encabezado*/
+.bg-azul,footer{
+    background-color: var(--AzulPrimario);
+   
+}
+
+.menu li a,.active{
+    color: var(--Blanco) !important;
+    font-size: 1.3em !important;
+}
+.btn-rojo{
+    border: var(--RojoEnfasis) solid 2px;
+    color: var(--RojoEnfasis);
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+/*estilos generales del pie*/
+footer h5{
+    color: var(--Blanco);
+    font-weight: 900px;
+    text-decoration: underline;
+
+    font-size: 1.3em !important;
+}
+
+footer .menu li,footer h5{
+    margin-bottom: 1em;
+
+}
+
+footer .menu li a{
+    text-decoration: none;
+
+}
+
+
+
+
+
